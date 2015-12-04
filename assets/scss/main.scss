@@ -1,0 +1,25 @@
+@import "compass";
+
+$header-bg:#525252;
+
+.header{
+  position: absolute;
+  top: 0; left: 0; right: 0;
+  height: 60px; line-height: 60px;
+  background-color: $header-bg;
+
+  .nav{
+    float: right;
+  }
+}
+
+.panel{
+  position: absolute;
+  top: 60px; left: 0; right: 0; bottom: 0;
+  background-color: #F5F5F5;
+  overflow-x: hidden;
+  overflow-y: scroll;
+  -webkit-overflow-scrolling: touch;
+  padding: 20px;
+}
+

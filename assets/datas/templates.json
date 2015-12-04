@@ -1,0 +1,12 @@
+{
+  "templates": [{
+    "filename": "Modele 1",
+    "path": "./assets/datas/templates/html1.html"
+  }, {
+    "filename": "Modele 2",
+    "path": "./assets/datas/templates/html2.html"
+  }, {
+    "filename": "Modele 3",
+    "path": "./assets/datas/templates/html3.html"
+  }]
+}

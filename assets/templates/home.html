@@ -1,0 +1,32 @@
+<section class="panel" ng-constroller='HomeCtrl'>
+  <div class="row">
+    <div class="col-xs-12 title">
+      <h1>Home</h1>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-xs-8 template-box">
+      <div class="row">
+        <div class="col-xs-12 inline-group">
+          <label for="">Sélectionner votre model</label>
+          <select ng-options="model as model.filename for model in models.templates " ng-model="item" ng-change="loadModel($event)"></select>
+        </div>
+        <div class="col-xs-12">
+          <label for="">... ou charger le votre</label>
+          <a href="#" class="btn btn-default">Charger</a>
+        </div>
+
+      </div>
+      <div class="row"></div>
+      <div class="row">
+        <div id="template" class="col-xs-12">
+          <div ng-include="templatePath"></div>
+        </div>
+      </div>
+    </div>
+    <div class="col-xs-4 picture-box">
+      
+    </div>
+  </div>
+</section>
+

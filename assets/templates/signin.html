@@ -1,0 +1,12 @@
+<section class="panel" ng-constroller='SigninCtrl'>
+  <h2>Connexion</h2>
+  <form ng-submit='login()'>
+    <label for="email">Email</label>
+    <input type="email" name="email" ng-model="email" value="{{email}}">
+    <label for="password">Mot de passe</label>
+    <input type="password" name="password" ng-model="password">
+
+    <button type="submit">Connexion</button>
+  </form>
+</section>
+
